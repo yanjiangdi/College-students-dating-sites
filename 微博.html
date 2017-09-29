@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=201512091137" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t5/style/css/patch/register/login_thethird.css?version=201512091137" type="text/css" rel="stylesheet" />
+<title>百度登录页</title>
+<script type="text/javascript">
+var $CONFIG = {};
+$CONFIG['islogin'] = '0';
+$CONFIG['version'] = '201512091137';
+$CONFIG['timeDiff'] = (new Date() - 1449632226000);
+$CONFIG['lang'] = 'zh-cn';
+$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t5/';
+$CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t5/';
+$CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t5/';
+$CONFIG['servertime'] = 1449632226;
+$CONFIG['mJsPath'] = ['http://js{n}.t.sinajs.cn/t5/', 1, 2];
+$CONFIG['mCssPath'] = ['http://img{n}.t.sinajs.cn/t5/', 1, 2];
+$CONFIG['loginFeedBackUrl'] = 'http://weibo.com/ajaxlogin.php?entry=baidu&redirect_uri=http%3A%2F%2Fpassport.baidu.com%2Fphoenix%2Faccount%2Fafterauth%3Fmkey%3D23bec1917e758dad7b66e7c6bd5942bc';
+</script>
+</head>
+<body class="B_login_thethird B_login_baidu">
+	<div class="W_login_bg">
+        <div class="W_login_header"><div class="logo"><a href="#"></a></div></div>
+        <div class="W_login_main clearfix">
+        	<div class="main_l">
+                <div class="figure"></div>
+            </div>
+            <div class="main_r">
+            	<div class="login_box" id="pl_login_logged">
+                	                	<div class="unlog_status" node-type="login_form" >
+                        <div class="login_host">微博帐号登录</div>
+                        <div class="W_login_form">
+                        	<div class="info_list" node-type="username_box">
+                        		<div class="inp username ">
+                        			<input type="text" value="" action-data="text=邮箱/会员帐号/手机号"
+                        			 action-type="text_copy" class="W_input " name="username" 
+                        			 node-type="username" tabindex="1" maxlength="128" autocomplete="off">
+                        		</div>
+                        	</div>
+                        	<div class="info_list" node-type="password_box">
+                        		<div class="inp password ">
+                        			<input type="password" value="" action-type="text_copy" class="W_input " name="password" node-type="password" tabindex="2" maxlength="24"><span class="enter_psw" style="">请输入密码</span>
+                        		</div>
+                        	</div>
+                        	<div style="display: none;" class="info_list" node-type="verifycode_box">
+                        		<div class="inp verify">
+                        			<input type="text" action-data="text=请输入验证码" action-type="text_copy" value="" class="W_input" name="verifycode" node-type="verifycode" tabindex="3" maxlength="6" disabled="">
+                        			<a onclick="return false;" href="javascript:void(0);" class="code">
+                        				<img width="100" height="40" action-type="btn_change_verifycode" node-type="verifycode_image" src="">
+                        			</a>
+                        			<a onclick="return false;" href="javascript:void(0);" class="verify_refresh" action-type="btn_change_verifycode" node-type="btn_change_verifycode">换一换</a>
+                        		</div>
+                        	</div>
+                        	<div style="" class="info_list" node-type="vsncode_box">
+                        		<div class="inp wei_dun">
+                        			<input type="text" value="" action-data="text=请输入微盾动态码" action-type="text_copy" class="W_input" name="vsncode" node-type="vsncode" tabindex="4" maxlength="6">
+                        			<a href="http://account.weibo.com/forgot/vdun" node-type="btn_vsncode_recover">微盾挂失</a>
+                        		</div>
+                        	</div>
+                        	<div class="info_list">
+                        		<div class="inp automatic clearfix">
+                        			<div class="right">
+                        				<a href="https://login.sina.com.cn/getpass.html?entry=weibo" node-type="btn_password_recover" target="_blank" suda-data="key=tblog_weibologin3&amp;value=click_forgetpwd">忘记密码</a>
+                        			</div>
+                        			<label for="login_form_savestate" title="建议在网吧或公共电脑上取消该选项。" action-data="content=建议在网吧或公共电脑上取消该选项。" action-type="customTip">
+                        			<input type="checkbox" class="W_checkbox" node-type="savestate" checked="checked" id="login_form_savestate" tabindex="5">下次自动登录</label>
+                        			<a href="http://help.weibo.com/faq/q/85/12524#12524" class="icon_ask" target="_blank" title="记不住登录状态，怎么办？" action-data="content=记不住登录状态，怎么办？" action-type="customTip" suda-data="key=tblog_weibologin3&amp;value=click_help">
+                        			</a>
+                        		</div>
+                        	</div>
+                        	<div class="info_list no_reg">
+                        		<a href="javascript:void(0)" class="W_btn_g" action-type="btn_submit" node-type="submitBtn" suda-data="key=tblog_weibologin3&amp;value=click_sign" tabindex="6">
+                        			<span node-type="submitStates">登录</span>
+                        		</a><span class="no_reg_tip">还没有微博？<a href="http://weibo.com/signup/signup.php" target="_blank" suda-data="key=tblog_weibologin3&amp;value=click_register">立即注册！</a></span>
+                        	</div>
+                        </div>                        
+                    </div>
+                    <br/><br/>
+                    
+                </div>
+            </div>
+        </div>
+		<div class="footer">
+        	<div class="W_tc S_txt3">&copy;2013 Baidu <a href="http://www.baidu.com/duty/" class="S_txt3">使用百度前必读</a> <span>京ICP备12002058号</span><img class="baidu_footer_ico" src="http://img.t.sinajs.cn/t5/style/images/register/the_third/baidu_footer_ico.png?id=1383793473405"/></div>
+        </div>
+    </div><script src="http://js.t.sinajs.cn/t5/register/js/page/login/remote.js?version=201512091137" type="text/javascript" ></script>
+</body>
+</html>
